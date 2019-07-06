@@ -19,6 +19,12 @@ public class Main {
     print(array3, "Before merge");
     MergeSort.execute(array3);
     print(array3, "After merge");
+
+    // Quick sort
+    int[] array4 = createArray();
+    print(array4, "Before quick");
+    QuickSort.execute(array4);
+    print(array4, "After quick");
   }
 
   private static int[] createArray() {
