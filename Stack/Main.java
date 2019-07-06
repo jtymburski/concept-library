@@ -14,7 +14,7 @@ public class Main {
     for (int i = 0; i < 10; i++) {
       stack.push("Val #" + i);
     }
-    System.out.print("Grow LIFO: ");
+    System.out.print("Set: ");
     while (!stack.empty()) {
       System.out.print(stack.pop() + ",");
     }
