@@ -13,6 +13,12 @@ public class Main {
     print(array2, "Before bubble");
     BubbleSort.execute(array2);
     print(array2, "After bubble");
+
+    // Merge sort
+    int[] array3 = createArray();
+    print(array3, "Before merge");
+    MergeSort.execute(array3);
+    print(array3, "After merge");
   }
 
   private static int[] createArray() {
