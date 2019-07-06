@@ -7,6 +7,12 @@ public class Main {
     print(array1, "Before selection");
     SelectionSort.execute(array1);
     print(array1, "After selection");
+
+    // Bubble sort
+    int[] array2 = createArray();
+    print(array2, "Before bubble");
+    BubbleSort.execute(array2);
+    print(array2, "After bubble");
   }
 
   private static int[] createArray() {
