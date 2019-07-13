@@ -3,5 +3,9 @@ public class Main {
     // ArrayList
     ArrayListWrapper arrayList = new ArrayListWrapper();
     arrayList.execute();
+
+    // StringBuilder
+    StringBuilderWrapper stringBuilder = new StringBuilderWrapper();
+    stringBuilder.execute();
   }
 }
