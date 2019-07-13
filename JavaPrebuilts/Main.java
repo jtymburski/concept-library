@@ -4,6 +4,10 @@ public class Main {
     ArrayListWrapper arrayList = new ArrayListWrapper();
     arrayList.execute();
 
+    // HashSet
+    HashSetWrapper hashSet = new HashSetWrapper();
+    hashSet.execute();
+
     // StringBuilder
     StringBuilderWrapper stringBuilder = new StringBuilderWrapper();
     stringBuilder.execute();
