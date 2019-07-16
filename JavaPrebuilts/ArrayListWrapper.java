@@ -41,4 +41,38 @@ public class ArrayListWrapper {
     // Reverse
     Collections.reverse(list);
   }
+
+  public void timeTest() {
+    List<Integer> list = new ArrayList<>();
+    int listCount = 5000000;
+
+    // ADD TO END
+    long startTime = System.currentTimeMillis();
+
+    for (int i = 0; i < listCount / 20; i++) {
+      list.add(0, i);
+    }
+
+    long stopTime = System.currentTimeMillis();
+    System.out.println("ArrayList add to front (only 5%): " + (stopTime - startTime));
+    list.clear();
+
+    // ADD TO END
+    startTime = System.currentTimeMillis();
+
+    for (int i = 0; i < listCount; i++) {
+      list.add(i);
+    }
+
+    stopTime = System.currentTimeMillis();
+    System.out.println("ArrayList add to end: " + (stopTime - startTime));
+
+    // ITERATE
+    startTime = System.currentTimeMillis();
+    for (Integer item : list) {
+      item = item + 1;
+    }
+    stopTime = System.currentTimeMillis();
+    System.out.println("ArrayList iterate: " + (stopTime - startTime));
+  }
 }

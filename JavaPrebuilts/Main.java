@@ -3,6 +3,7 @@ public class Main {
     // ArrayList
     ArrayListWrapper arrayList = new ArrayListWrapper();
     arrayList.execute();
+    arrayList.timeTest();
 
     // HashSet
     HashSetWrapper hashSet = new HashSetWrapper();
