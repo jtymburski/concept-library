@@ -13,6 +13,11 @@ public class Main {
     HashtableWrapper hashtable = new HashtableWrapper();
     hashtable.execute();
 
+    // LinkedList
+    LinkedListWrapper linkedList = new LinkedListWrapper();
+    linkedList.execute();
+    linkedList.timeTest();
+
     // StringBuilder
     StringBuilderWrapper stringBuilder = new StringBuilderWrapper();
     stringBuilder.execute();
