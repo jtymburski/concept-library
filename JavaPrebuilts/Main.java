@@ -18,6 +18,10 @@ public class Main {
     linkedList.execute();
     linkedList.timeTest();
 
+    // Stack
+    StackWrapper stack = new StackWrapper();
+    stack.execute();
+
     // StringBuilder
     StringBuilderWrapper stringBuilder = new StringBuilderWrapper();
     stringBuilder.execute();
