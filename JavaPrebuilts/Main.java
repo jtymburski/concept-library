@@ -18,6 +18,10 @@ public class Main {
     linkedList.execute();
     linkedList.timeTest();
 
+    // Queue
+    QueueWrapper queue = new QueueWrapper();
+    queue.execute();
+
     // Stack
     StackWrapper stack = new StackWrapper();
     stack.execute();
